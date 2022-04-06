@@ -3,7 +3,7 @@ resources:
     - repository: devops
       type: github
       name: filipeforattini/ff-iac-azure-pipelines
-      endpoint: filipeforattini
+      endpoint: github.com_filipeforattini
       ref: main
 
 extends:
