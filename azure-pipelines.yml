@@ -1,11 +1,11 @@
 resources:
   repositories:
     - repository: filipeforattini/ff-iac-azure-pipelines
-      type: github
-      name: template
+      type: git
+      name: devops
       endpoint: github.com_filipeforattini
 
 extends:
-  template: service.yml@template
+  template: service.yml@devops
   parameters:
     language: node
