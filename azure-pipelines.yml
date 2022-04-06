@@ -1,8 +1,8 @@
 resources:
   repositories:
-    - name: ff-iac-azure-pipelines
+    - repository: ff-iac-azure-pipelines
       type: git
-      repository: template
+      name: template
 
 extends:
   template: service.yml@template
