@@ -1,6 +1,6 @@
 resources:
   repositories:
-    - repository: ff-iac-azure-pipelines
+    - repository: filipeforattini/ff-iac-azure-pipelines
       type: github
       name: template
       endpoint: github.com_filipeforattini
