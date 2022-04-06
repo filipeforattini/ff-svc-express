@@ -1,9 +1,9 @@
 resources:
   repositories:
-    - repository: filipeforattini/ff-iac-azure-pipelines
+    - repository: ff-iac-azure-pipelines
       type: github
       name: template
-      endpoint: https://github.com/filipeforattini/ff-iac-azure-pipeline
+      endpoint: default
 
 extends:
   template: service.yml@template
