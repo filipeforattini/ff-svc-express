@@ -1,8 +1,8 @@
 resources:
   repositories:
     - repository: devops
-      type: git
-      name: ff-iac-azure-pipelines
+      type: github
+      name: filipeforattini/ff-iac-azure-pipelines
       endpoint: github.com_filipeforattini
 
 extends:
