@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-pipetest",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "test",
   "main": "index.js",
   "scripts": {
