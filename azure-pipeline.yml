@@ -1,0 +1,10 @@
+resources:
+  repositories:
+    - name: ff-iac-azure-pipelines
+      type: git
+      repository: template
+
+extends:
+  template: service.yml@template
+  parameters:
+    language: node
