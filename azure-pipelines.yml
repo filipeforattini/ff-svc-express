@@ -4,6 +4,7 @@ resources:
       type: github
       name: filipeforattini/ff-iac-azure-pipelines
       # endpoint: github.com_filipeforattini
+
       endpoint: filipeforattini
       ref: main
 
