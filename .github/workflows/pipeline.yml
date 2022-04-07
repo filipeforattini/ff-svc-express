@@ -3,4 +3,4 @@ on: push
 
 jobs:
   call-workflow:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/services.yml
+    uses: filipeforattini/ff-iac-github-actions/workflows/services.yml
