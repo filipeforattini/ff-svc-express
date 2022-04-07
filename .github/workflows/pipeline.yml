@@ -1,0 +1,6 @@
+name: ff-svc-pipetest
+on: push
+
+jobs:
+  call-workflow:
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/services.yml
