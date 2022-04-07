@@ -1,5 +1,8 @@
 name: ff-svc-pipetest
-on: push
+
+on: 
+  - push
+  - workflow_dispatch
 
 jobs:
   call-workflow:
