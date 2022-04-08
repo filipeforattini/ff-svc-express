@@ -1,9 +1,13 @@
 name: ff-svc-pipetest
-
-on: 
-  - push
-  - workflow_dispatch
+on: [push, workflow_dispatch]
 
 jobs:
-  call-workflow:
+
+  main-workflow:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
+
+  results:
+    runs-on: ubuntu-latest
+    needs: main-workflow
+    steps:
+      - run: echo ${{join(needs.main-workflow.outputs, '\n')}}
