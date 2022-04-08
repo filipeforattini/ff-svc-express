@@ -3,10 +3,10 @@ on: [push, workflow_dispatch]
 
 jobs:
 
-  main-workflow:
+  Service:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
 
-  results:
+  Outputs:
     runs-on: ubuntu-latest
     needs: main-workflow
     steps:
