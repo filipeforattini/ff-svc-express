@@ -3,17 +3,10 @@
   "version": "1.0.55",
   "description": "test",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/filipeforattini/ff-svc-pipetest.git"
   },
   "author": "filipeforattini",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/filipeforattini/ff-svc-pipetest/issues"
-  },
-  "homepage": "https://github.com/filipeforattini/ff-svc-pipetest#readme"
+  "license": "ISC"
 }
