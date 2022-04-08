@@ -6,4 +6,4 @@ on:
 
 jobs:
   call-workflow:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@service
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
