@@ -1,0 +1,16 @@
+{
+  "name": "ff-svc-pipetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipeforattini/ff-svc-pipetest.git"
+  },
+  "author": "filipeforattini",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.0"
+  }
+}
