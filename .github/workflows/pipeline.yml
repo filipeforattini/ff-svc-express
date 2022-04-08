@@ -8,6 +8,8 @@ jobs:
 
   Outputs:
     runs-on: ubuntu-latest
-    needs: main-workflow
+    needs: Service
     steps:
-      - run: echo ${{join(needs.main-workflow.outputs, '\n')}}
+      - run: echo ${{needs.Service.outputs.NoLanguageDetected)}}
+      - run: echo ${{needs.Service.outputs.RepositoryIsNode)}}
+      - run: echo ${{needs.Service.outputs.RepositoryIsPython)}}
