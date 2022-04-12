@@ -1,10 +1,12 @@
 name: ff-svc-pipetest
-on: ['push']
+on: ['push', 'pull_request']
 
 jobs:
 
   Service:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
+    with:
+      containerRegistry: ghcr.io
 
   Outputs:
     runs-on: ubuntu-latest
