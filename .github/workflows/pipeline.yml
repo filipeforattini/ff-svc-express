@@ -1,7 +1,0 @@
-name: ff-svc-pipetest
-on: [push, workflow_dispatch]
-
-jobs:
-
-  Service:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
