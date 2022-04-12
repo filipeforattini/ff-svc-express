@@ -3,7 +3,7 @@ on: ['push']
 
 jobs:
 
-  ServicePush:
+  Service:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service.yml@main
 
   Outputs:
