@@ -12,6 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: Service
     steps:
-      - run: echo NoLanguageDetected=${{needs.Service.outputs.NoLanguageDetected}}
-      - run: echo RepositoryIsNode=${{needs.Service.outputs.RepositoryIsNode}}
-      - run: echo RepositoryIsPython=${{needs.Service.outputs.RepositoryIsPython}}
+      - run: echo PipelineSetup=${{needs.Service.outputs.PipelineConfig}}
