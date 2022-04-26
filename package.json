@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-pipetest",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "private": true,
@@ -23,6 +23,6 @@
     "dayjs": "^1.11.0"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "release": "semantic-release --no-ci"
   }
 }
