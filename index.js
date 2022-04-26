@@ -2,22 +2,22 @@ const dayjs = require("dayjs");
 const chalk = require("chalk");
 
 const colors = [
-  "black",
   "red",
-  "green",
-  "yellow",
   "blue",
-  "magenta",
   "cyan",
-  "white",
   "gray",
+  "black",
+  "green",
+  "white",
+  "yellow",
+  "magenta",
   "redBright",
-  "greenBright",
-  "yellowBright",
   "blueBright",
-  "magentaBright",
   "cyanBright",
+  "greenBright",
   "whiteBright",
+  "yellowBright",
+  "magentaBright",
 ];
 
 setInterval(() => {
