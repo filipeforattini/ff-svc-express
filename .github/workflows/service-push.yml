@@ -1,0 +1,15 @@
+name: ff-svc-pipetest
+on: ['push']
+
+jobs:
+
+  Service:
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
+    with:
+      containerRegistry: ghcr.io
+
+  Outputs:
+    runs-on: ubuntu-latest
+    needs: Service
+    steps:
+      - run: echo PipelineSetup = ${{ needs.Service.outputs.PipelineConfig }}
