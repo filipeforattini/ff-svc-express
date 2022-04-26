@@ -1,6 +1,4 @@
 #@data/values
 ---
-repository: ff-svc-pipetest
-
 ingress:
   enable: true
