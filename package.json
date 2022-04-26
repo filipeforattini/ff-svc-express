@@ -1,16 +1,21 @@
 {
   "name": "ff-svc-pipetest",
-  "version": "1.0.110",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filipeforattini/ff-svc-pipetest.git"
+    "url": "https://github.com/filipeforattini/ff-svc-pipetest.git"
   },
   "author": "filipeforattini",
   "license": "ISC",
   "dependencies": {
     "dayjs": "^1.11.0"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
   }
 }
