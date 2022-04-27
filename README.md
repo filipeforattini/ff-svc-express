@@ -9,20 +9,20 @@ Example of a service built with pileline [filipeforattini/ff-iac-github-actions]
 
 ### Workflows
 
-| workflow=service-push |
+| service-push |
 | :---: |
 | ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg) |
 
 ### Branches
 
-| branch=main | branch=develop | event=push |
-| :---: | :---: | :---: |
-| ![Branch Main](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) | ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?event=push) |
+| main | develop |
+| :---: | :---: |
+| ![Branch Main](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) |
 
 
 ### Events
 
-| event=push |
+| push |
 | :---: |
 | ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?event=push) |
 
