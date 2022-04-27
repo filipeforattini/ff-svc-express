@@ -1,6 +1,6 @@
-const chalk = require("chalk");
+import chalk from "chalk";
 
-const colors = [
+export const colors = [
   "red",
   "blue",
   "cyan",
@@ -19,13 +19,8 @@ const colors = [
   "magentaBright",
 ];
 
-const randomColorLog = (str) => {
+export function randomColorLog(str) {
   return console.log(
     chalk[colors[parseInt(Math.random() * 100) % colors.length]](str)
   );
-}
-
-module.exports = {
-  colors,
-  randomColorLog,
 }
