@@ -6,6 +6,7 @@ jobs:
   Service:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
     with:
+      mainBranch: main
       containerRegistry: ghcr.io
 
   Outputs:
