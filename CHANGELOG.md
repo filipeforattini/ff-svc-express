@@ -1,3 +1,10 @@
+## [3.0.2](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.1...v3.0.2) (2022-04-28)
+
+
+### Bug Fixes
+
+* service description ([3950785](https://github.com/filipeforattini/ff-svc-pipetest/commit/395078537a6debea2ae091621bcbb3a2d16414db))
+
 ## [3.0.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.0...v3.0.1) (2022-04-28)
 
 
