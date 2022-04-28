@@ -3,7 +3,7 @@
 
 ## Description
 
-Example of a service built with pileline [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions).
+This repository is an example of a service built with pileline [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions) and deployed on Kubernetes.
 
 ## Monitor
 
