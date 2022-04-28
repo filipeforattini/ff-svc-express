@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.0...v3.0.1) (2022-04-28)
+
+
+### Bug Fixes
+
+* more slashes needed ([2891eff](https://github.com/filipeforattini/ff-svc-pipetest/commit/2891effba67465c20eb03a764b59339fc7462c4e))
+
 # [3.0.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v2.0.0...v3.0.0) (2022-04-28)
 
 
