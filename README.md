@@ -26,4 +26,3 @@ Example of a service built with pileline [filipeforattini/ff-iac-github-actions]
 | :---: |
 | ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?event=push) |
 
-
