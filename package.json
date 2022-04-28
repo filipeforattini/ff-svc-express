@@ -20,7 +20,7 @@
   "author": "filipeforattini",
   "license": "ISC",
   "dependencies": {
-    "chalk": "5.0.1",
+    "chalk": "3.0.0",
     "dayjs": "^1.11.1",
     "esm": "^3.2.25"
   },
