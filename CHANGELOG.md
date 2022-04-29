@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.1.0...v4.1.1) (2022-04-29)
+
+
+### Bug Fixes
+
+* using just html colors ([9058d64](https://github.com/filipeforattini/ff-svc-pipetest/commit/9058d64d6caf76e806f4d405490aa81229b9a35c))
+
 # [4.1.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.0.0...v4.1.0) (2022-04-29)
 
 
