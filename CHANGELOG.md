@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.0.0...v4.1.0) (2022-04-29)
+
+
+### Features
+
+* rewrote color definition ([a57c083](https://github.com/filipeforattini/ff-svc-pipetest/commit/a57c0839f6cbe420d77842e6ccd75b26be0e1bc2))
+
 # [4.0.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.2...v4.0.0) (2022-04-29)
 
 
