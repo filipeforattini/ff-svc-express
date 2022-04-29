@@ -1,3 +1,21 @@
+# [4.0.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.2...v4.0.0) (2022-04-29)
+
+
+### chore
+
+* using yarn as main dependency manager ([33051e0](https://github.com/filipeforattini/ff-svc-pipetest/commit/33051e01720cc656483de7d55496ef4ae319c1c9))
+
+
+### Features
+
+* added awesome front for testing ([d3e4fb0](https://github.com/filipeforattini/ff-svc-pipetest/commit/d3e4fb05a4a578f91d8b6e05fdddd22b2cadf885))
+
+
+### BREAKING CHANGES
+
+* mainly using yarn to test pipeline build
+* now this is a server with express.
+
 ## [3.0.2](https://github.com/filipeforattini/ff-svc-pipetest/compare/v3.0.1...v3.0.2) (2022-04-28)
 
 
