@@ -1,0 +1,16 @@
+doctype html
+html
+
+  head
+    meta(name='viewport', content='width=device-width')
+    link(rel="stylesheet", href="/css/main.css")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css")
+    title= name
+
+  body
+    section
+      h2 #{name}
+      p ##{count}
+      hr
+      h3(style={ color })= version
+      a(href=link, target="_blank") #{link}

@@ -5,22 +5,28 @@ export const colors = [
   "blue",
   "cyan",
   "gray",
-  "black",
+  // "black",
   "green",
-  "white",
+  // "white",
   "yellow",
   "magenta",
-  "redBright",
+  // "redBright",
   "blueBright",
   "cyanBright",
   "greenBright",
-  "whiteBright",
+  // "whiteBright",
   "yellowBright",
   "magentaBright",
 ];
 
+export function randomColor() {
+  return colors[parseInt(Math.random() * 100) % colors.length];
+}
+
 export function randomColorLog(str) {
-  return console.log(
-    chalk[colors[parseInt(Math.random() * 100) % colors.length]](str)
-  );
+  return console.log(chalk[randomColor()](str));
+}
+
+export function coloredLog(color, str) {
+  return console.log(chalk[color](str));
 }

@@ -1,10 +1,46 @@
-import dayjs from "dayjs";
-import { randomColorLog } from "./colors";
+import path from "path";
+import cors from "cors";
+import helmet from "helmet";
+import express from "express";
+import favicon from "serve-favicon";
+import bodyParser from "body-parser";
+import compression from "compression";
 
-const { 
-  PRINT_INTERVAL = 2 * 1000
-} = process.env;
+const morgan = require("morgan");
+const { name, version } = require("../package.json");
 
-setInterval(() => {
-  randomColorLog(`    T1M3 :: ${dayjs().format("HH:mm:ss")}`);
-}, parseInt(PRINT_INTERVAL));
+import { randomColor, coloredLog } from "./colors";
+
+const { PORT = "8080" } = process.env;
+
+const app = express();
+app.set('view engine', 'pug');
+app.set('views', path.join(__dirname, 'views'));
+
+const middlewares = [
+  morgan("dev"),
+  helmet(),
+  cors(),
+  compression(),
+  favicon(path.join(__dirname, "static", "favicon.ico")),
+  bodyParser.json(),
+  express.static("src/static", {}),
+];
+
+middlewares.filter((m) => app.use(m));
+
+let count = 0;
+app.get('/', (req, res) => {
+  const color = randomColor()
+  coloredLog(color, 'Hello world!')
+
+  res.render('home', {
+    name,
+    color,
+    version,
+    count: count++,
+    link: 'https://github.com/filipeforattini/ff-svc-pipetest',
+  });
+});
+
+app.listen(parseInt(PORT), () => console.log(`Listening on port ${PORT}`));

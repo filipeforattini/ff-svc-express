@@ -20,9 +20,17 @@
   "author": "filipeforattini",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "chalk": "3.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
     "dayjs": "^1.11.1",
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "express": "^4.18.0",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "serve-favicon": "^2.5.0"
   },
   "scripts": {
     "release": "semantic-release --no-ci",
