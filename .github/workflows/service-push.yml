@@ -11,9 +11,9 @@ jobs:
       secretsDriver: actions
       secrets: |
         echo '{
-          "A": "{{ secrets.A }}",
-          "B": "{{ secrets.B }}",
-          "C": "{{ secrets.B }}",
+          "A": "${{ secrets.A }}",
+          "B": "${{ secrets.B }}",
+          "C": "${{ secrets.B }}",
         }' | base64
 
   Outputs:
