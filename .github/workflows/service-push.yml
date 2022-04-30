@@ -9,7 +9,7 @@ jobs:
       mainBranch: main
       containerRegistry: ghcr.io
       secretsDriver: actions
-      secrets: |
+      secretsJson: |
         "{
           \"A\": \"${{ secrets.A }}\",
           \"B\": \"${{ secrets.B }}\",
