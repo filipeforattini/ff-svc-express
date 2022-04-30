@@ -15,7 +15,7 @@ setInterval(() => {
 }, 2 * 1000);
 
 app.get("/", (req, res) => {
-  res.render("home", {
+  return res.render("home", {
     name,
     color,
     version,
