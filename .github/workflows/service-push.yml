@@ -8,13 +8,6 @@ jobs:
     with:
       mainBranch: main
       containerRegistry: ghcr.io
-      secretsDriver: actions
-      secretsJson: |
-        "{
-          \"A\": \"${{ secrets.A }}\",
-          \"B\": \"${{ secrets.B }}\",
-          \"C\": \"${{ secrets.B }}\",
-        }"
 
   Outputs:
     runs-on: ubuntu-latest
