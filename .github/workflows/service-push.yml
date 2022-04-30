@@ -9,12 +9,11 @@ jobs:
       mainBranch: main
       containerRegistry: ghcr.io
       secretsDriver: actions
-      secrets: |
-        echo '{
+      secrets: '{
           "A": "${{ secrets.A }}",
           "B": "${{ secrets.B }}",
           "C": "${{ secrets.B }}",
-        }' | base64
+        }'
 
   Outputs:
     runs-on: ubuntu-latest
