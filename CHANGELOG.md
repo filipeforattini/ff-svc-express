@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.1.1...v4.2.0) (2022-04-30)
+
+
+### Features
+
+* working in progress with secrets ([eaa882d](https://github.com/filipeforattini/ff-svc-pipetest/commit/eaa882d0c432bc7918f078141aff98419c66c478))
+
 ## [4.1.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.1.0...v4.1.1) (2022-04-29)
 
 
