@@ -1,32 +1,10 @@
-import path from "path";
-import cors from "cors";
-import helmet from "helmet";
-import express from "express";
-import favicon from "serve-favicon";
-import bodyParser from "body-parser";
-import compression from "compression";
-const morgan = require("morgan");
-
-const { name, version } = require("../package.json");
+import expressFactory from './express'
 import { randomColor, coloredLog } from "./colors";
 
 const { PORT = "8080" } = process.env;
+const { name, version } = require("../package.json");
 
-const app = express();
-app.set("view engine", "pug");
-app.set("views", path.join(__dirname, "views"));
-
-const middlewares = [
-  morgan("dev"),
-  helmet(),
-  cors(),
-  compression(),
-  favicon(path.join(__dirname, "static", "favicon.ico")),
-  bodyParser.json(),
-  express.static("src/static", {}),
-];
-
-middlewares.filter((m) => app.use(m));
+const app = expressFactory()
 
 let count = 0;
 let color = randomColor();
