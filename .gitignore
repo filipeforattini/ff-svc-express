@@ -1,2 +1,2 @@
 node_modules
-manifests/secrets/*.yml
+manifests/secrets/*.env
