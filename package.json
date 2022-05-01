@@ -9,15 +9,6 @@
 >>>>>>> e9e149d (chore(release): 4.2.0 [skip ci])
   "main": "./src/main.js",
   "private": true,
-  "devDependencies": {
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/commit-analyzer": "^9.0.2",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "^9.0.1",
-    "@semantic-release/release-notes-generator": "^10.0.3",
-    "semantic-release": "^19.0.2"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/filipeforattini/ff-svc-pipetest.git"
