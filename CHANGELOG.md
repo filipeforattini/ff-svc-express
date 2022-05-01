@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.0...v4.2.1) (2022-05-01)
+
+
+### Bug Fixes
+
+* using another gpg importer ([d47af8b](https://github.com/filipeforattini/ff-svc-pipetest/commit/d47af8b34be42f0e2735cc7e0d625322de3d9e72))
+
 # [4.2.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.1.1...v4.2.0) (2022-04-30)
 
 
