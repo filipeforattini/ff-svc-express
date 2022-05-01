@@ -1,3 +1,11 @@
+## [4.2.2](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.1...v4.2.2) (2022-05-01)
+
+
+### Bug Fixes
+
+* removed unecessary dev dependencies from pipeline ([b7aa762](https://github.com/filipeforattini/ff-svc-pipetest/commit/b7aa7628ee198fb6d6043a5560cb42357b0bd1db))
+* typo on pipeline reference ([1f03beb](https://github.com/filipeforattini/ff-svc-pipetest/commit/1f03beb5dbde39d36ba98b5225a62fbc056c3fca))
+
 ## [4.2.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.0...v4.2.1) (2022-05-01)
 
 
