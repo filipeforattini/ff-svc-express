@@ -8,6 +8,11 @@ jobs:
     with:
       mainBranch: main
       containerRegistry: ghcr.io
+    secrets:
+      GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+      GPG_DEV_PASSPHRASE: ${{ secrets.GPG_DEV_PASSPHRASE }}
+      GPG_STG_PASSPHRASE: ${{ secrets.GPG_STG_PASSPHRASE }}
+      GPG_PRD_PASSPHRASE: ${{ secrets.GPG_PRD_PASSPHRASE }}
 
   Outputs:
     runs-on: ubuntu-latest
