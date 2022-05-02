@@ -4,7 +4,7 @@ on: ['push']
 jobs:
 
   Service:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@v1.0.7
     with:
       mainBranch: main
       containerRegistry: ghcr.io
