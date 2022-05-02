@@ -1,3 +1,10 @@
+## [4.2.3](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.2...v4.2.3) (2022-05-02)
+
+
+### Bug Fixes
+
+* now pipeline asks for minimum secrets ([b85619c](https://github.com/filipeforattini/ff-svc-pipetest/commit/b85619c102709074686df56cd86a94f60d655779))
+
 ## [4.2.2](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.1...v4.2.2) (2022-05-01)
 
 
