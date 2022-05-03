@@ -1,3 +1,13 @@
+## [4.3.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.0...v4.3.1) (2022-05-03)
+
+
+### Bug Fixes
+
+* secrets now are inherited and new version ([3ed62d1](https://github.com/filipeforattini/ff-svc-pipetest/commit/3ed62d1c4c6f881ca1251cd09c6a8b4966517ac5))
+* using new version ([2d5a147](https://github.com/filipeforattini/ff-svc-pipetest/commit/2d5a147cce9de6a9c56eb98ec2fb15e890e869e1))
+* using new version ([62aa208](https://github.com/filipeforattini/ff-svc-pipetest/commit/62aa20812a26de32ea8e8199967f0d865e8562ad))
+* using new version ([6759197](https://github.com/filipeforattini/ff-svc-pipetest/commit/67591970ee3fa6c64a374a5f1276b3ff3d05e11c))
+
 # [4.3.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.2.3...v4.3.0) (2022-05-02)
 
 
