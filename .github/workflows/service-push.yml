@@ -4,15 +4,11 @@ on: ['push']
 jobs:
 
   Service:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@v1.3.5
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@v1.3.6
     with:
       mainBranch: main
       containerRegistry: ghcr.io
-    secrets:
-      KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
-      GPG_DEV_PASSPHRASE: ${{ secrets.GPG_DEV_PASSPHRASE }}
-      GPG_STG_PASSPHRASE: ${{ secrets.GPG_STG_PASSPHRASE }}
-      GPG_PRD_PASSPHRASE: ${{ secrets.GPG_PRD_PASSPHRASE }}
+    secrets: inherit
 
   Outputs:
     runs-on: ubuntu-latest
