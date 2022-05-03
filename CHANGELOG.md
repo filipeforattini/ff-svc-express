@@ -1,3 +1,10 @@
+## [4.3.3](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.2...v4.3.3) (2022-05-03)
+
+
+### Bug Fixes
+
+* version without quotes ([a76e328](https://github.com/filipeforattini/ff-svc-pipetest/commit/a76e3282c64e172e2957c26a2209d40ef3c98e16))
+
 ## [4.3.2](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.1...v4.3.2) (2022-05-03)
 
 
