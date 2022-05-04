@@ -1,3 +1,10 @@
+## [4.3.5](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.4...v4.3.5) (2022-05-04)
+
+
+### Bug Fixes
+
+* added codeql permissions ([5485b6a](https://github.com/filipeforattini/ff-svc-pipetest/commit/5485b6a9dfce33e4b06120eee2dc7087b90a1c2e))
+
 ## [4.3.4](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.3...v4.3.4) (2022-05-04)
 
 
