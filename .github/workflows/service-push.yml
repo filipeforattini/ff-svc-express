@@ -4,10 +4,11 @@ on: ['push']
 jobs:
 
   Service:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@v1.8.6
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@v1.9.0
     with:
       debug: true
       mainBranch: main
+      platforms: linux/amd64
       containerRegistry: ghcr.io
     secrets: inherit
 
