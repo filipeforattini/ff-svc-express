@@ -1,4 +1,4 @@
-name: ff-svc-pipetest
+name: pull-request
 on: ['pull_request']
 
 jobs:

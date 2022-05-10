@@ -1,4 +1,4 @@
-name: ff-svc-pipetest
+name: push
 on: ['push']
 
 jobs:
@@ -10,6 +10,7 @@ jobs:
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
       containerRegistry: ghcr.io
+      environmentsAsNamespaces: true
     secrets: inherit
 
   Outputs:
