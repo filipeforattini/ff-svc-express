@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-pipetest",
-  "version": "4.3.12",
+  "version": "4.3.13",
   "description": "A node.js application for pipeline testing.",
   "main": "./src/main.js",
   "private": true,
