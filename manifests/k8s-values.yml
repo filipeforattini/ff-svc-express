@@ -1,4 +1,4 @@
 #@data/values
 ---
-ingress:
-  enable: true
+pipelineControl:
+  environmentByNamespace: true
