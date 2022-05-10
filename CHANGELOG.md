@@ -1,3 +1,10 @@
+## [4.3.10](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.9...v4.3.10) (2022-05-10)
+
+
+### Bug Fixes
+
+* added pr workflow ([bc4bd10](https://github.com/filipeforattini/ff-svc-pipetest/commit/bc4bd1065f4c3b2d89adbe8a0f9814888df9be03))
+
 ## [4.3.9](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.8...v4.3.9) (2022-05-10)
 
 
