@@ -47,4 +47,3 @@ This repository is an example of a service built with pileline [filipeforattini/
 | push |
 | :---: |
 | ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/pull-request.yml/badge.svg?event=push) |
-
