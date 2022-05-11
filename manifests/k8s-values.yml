@@ -1,4 +1,4 @@
 #@data/values
 ---
 pipelineControl:
-  environmentByNamespace: true
+  environmentsAsNamespaces: true
