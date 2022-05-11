@@ -7,21 +7,44 @@ This repository is an example of a service built with pileline [filipeforattini/
 
 ## Monitor
 
-### Branches
+### Pipeline for Push
+
+#### Branches
 
 | main | develop |
 | :---: | :---: |
-| ![Branch Main](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?branch=main) |
+| ![Branch Main](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/push.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/push.yml/badge.svg?branch=main) |
 
-### Workflows
-
-| service-push |
-| :---: |
-| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg) |
-
-### Events
+#### Workflows
 
 | push |
 | :---: |
-| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/service-push.yml/badge.svg?event=push) |
+| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/push.yml/badge.svg) |
+
+#### Events
+
+| push |
+| :---: |
+| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/push.yml/badge.svg?event=push) |
+
+
+### Pipeline for Pull Request
+
+#### Branches
+
+| main | develop |
+| :---: | :---: |
+| ![Branch Main](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/pull-request.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/pull-request.yml/badge.svg?branch=main) |
+
+#### Workflows
+
+| push |
+| :---: |
+| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/pull-request.yml/badge.svg) |
+
+#### Events
+
+| push |
+| :---: |
+| ![Event Push](https://github.com/filipeforattini/ff-svc-pipetest/actions/workflows/pull-request.yml/badge.svg?event=push) |
 
