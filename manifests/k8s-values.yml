@@ -2,3 +2,7 @@
 ---
 features:
   enableLinkerd: true
+
+env:
+  - name: TZ
+    value: America/Sao_Paulo
