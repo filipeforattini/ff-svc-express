@@ -1,3 +1,15 @@
+# [4.4.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.37...v4.4.0) (2022-05-11)
+
+
+### Bug Fixes
+
+* empty commit for testing ([24da118](https://github.com/filipeforattini/ff-svc-pipetest/commit/24da118f888736da82695d037553a38369eebd60))
+
+
+### Features
+
+* added dependabot ([a27b370](https://github.com/filipeforattini/ff-svc-pipetest/commit/a27b37099b9e472610d84b6dfdca31021630f093))
+
 ## [4.3.37](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.3.36...v4.3.37) (2022-05-11)
 
 
