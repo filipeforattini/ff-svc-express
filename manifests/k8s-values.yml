@@ -1,4 +1,4 @@
 #@data/values
 ---
-pipelineControl:
-  environmentsAsNamespaces: true
+features:
+  enableLinkerd: true
