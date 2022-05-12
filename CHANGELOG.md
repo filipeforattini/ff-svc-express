@@ -1,3 +1,10 @@
+## [4.5.10](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.5.9...v4.5.10) (2022-05-12)
+
+
+### Bug Fixes
+
+* added env prefix at start ([672a4b0](https://github.com/filipeforattini/ff-svc-pipetest/commit/672a4b0d6e9a35236c664246903f83ff8f61b9ab))
+
 ## [4.5.9](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.5.8...v4.5.9) (2022-05-12)
 
 
