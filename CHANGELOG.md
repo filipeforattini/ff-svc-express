@@ -1,3 +1,10 @@
+## [4.5.1](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.5.0...v4.5.1) (2022-05-12)
+
+
+### Bug Fixes
+
+* empty commit for testing ([278fdf8](https://github.com/filipeforattini/ff-svc-pipetest/commit/278fdf8b9ac5db6d45d2f13cfedc6284415d1ff3))
+
 # [4.5.0](https://github.com/filipeforattini/ff-svc-pipetest/compare/v4.4.1...v4.5.0) (2022-05-12)
 
 
