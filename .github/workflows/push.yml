@@ -5,14 +5,14 @@ jobs:
 
   Service:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
+    secrets: inherit
     with:
       debug: true
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
       autoVersioning: false
       containerRegistry: ghcr.io
-      environmentsAsNamespaces: false
-    secrets: inherit
+      environmentsAsNamespaces: true
 
   Outputs:
     runs-on: ubuntu-latest
