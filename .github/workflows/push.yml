@@ -9,9 +9,9 @@ jobs:
       debug: true
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
-      containerRegistry: ghcr.io
-      environmentsAsNamespaces: true
       autoVersioning: false
+      containerRegistry: ghcr.io
+      environmentsAsNamespaces: false
     secrets: inherit
 
   Outputs:
