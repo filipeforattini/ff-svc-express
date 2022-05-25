@@ -11,6 +11,7 @@ jobs:
       platforms: linux/amd64,linux/arm/v8,linux/arm64
       containerRegistry: ghcr.io
       environmentsAsNamespaces: true
+      autoVersioning: false
     secrets: inherit
 
   Outputs:
