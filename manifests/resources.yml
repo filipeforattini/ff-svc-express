@@ -1,8 +1,14 @@
 #@data/values
 ---
+mysql:
+  enable: true
+  helm:
+    primary:
+      persistence:
+        size: 1Gi	
+
 postgres:
-  enable: false
-  
+  enable: true  
   helm:
     primary:
       persistence:
