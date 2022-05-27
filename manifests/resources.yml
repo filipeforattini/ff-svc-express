@@ -1,0 +1,9 @@
+#@data/values
+---
+postgres:
+  enable: false
+  
+  helm:
+    primary:
+      persistence:
+        size: 1Gi	
