@@ -1,0 +1,21 @@
+#@data/values
+---
+mysql:
+  enabled: true
+  helm:
+    primary:
+      persistence:
+        size: 1Gi	
+
+postgres:
+  enabled: true  
+  helm:
+    primary:
+      persistence:
+        size: 1Gi	
+
+rabbitmq:
+  enabled: true  
+  helm:
+    persistence:
+      size: 1Gi
