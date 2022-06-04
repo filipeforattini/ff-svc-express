@@ -1,8 +1,16 @@
 #@data/values
 ---
+
 features:
   enableLinkerd: true
 
 env:
   - name: TZ
     value: America/Sao_Paulo
+
+ingress:
+  enable: true
+  type: nginx
+  domain:
+    enable: true
+    name: forattini.app
