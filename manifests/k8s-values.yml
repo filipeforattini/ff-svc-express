@@ -17,3 +17,4 @@ ingress:
   domain:
     enable: true
     name: forattini.app
+    email: filipeforattini1@gmail.com
