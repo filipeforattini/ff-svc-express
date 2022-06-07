@@ -12,7 +12,9 @@ postgres:
   helm:
     primary:
       persistence:
-        size: 1Gi	
+        size: 1Gi
+    metrics:
+      enabled: true
 
 rabbitmq:
   enabled: true  
