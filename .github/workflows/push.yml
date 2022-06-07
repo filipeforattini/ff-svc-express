@@ -3,19 +3,33 @@ on: ['push']
 
 jobs:
 
-  Service:
+  Delivery:
     uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
     secrets: inherit
     with:
       debug: true
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
-      autoVersioning: false
+      autoVersioning: true
+      containerRegistry: ghcr.io
+      environmentsAsNamespaces: true
+
+  Deploy:
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/deploy.yml@main
+    needs: Delivery
+    secrets: inherit
+    with:
+      debug: true
+      mainBranch: main
+      platforms: linux/amd64,linux/arm/v8,linux/arm64
+      autoVersioning: true
       containerRegistry: ghcr.io
       environmentsAsNamespaces: true
 
   Outputs:
     runs-on: ubuntu-latest
-    needs: Service
+    needs:
+      - Delivery
+      - Deploy
     steps:
-      - run: echo PipelineSetup = ${{ needs.Service.outputs.PipelineConfig }}
+      - run: echo PipelineSetup = ${{ needs.Delivery.outputs.PipelineConfig }}
