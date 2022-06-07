@@ -1,6 +1,6 @@
 #@data/values
 ---
-port: 8080
+port: "8080"
 
 features:
   enableLinkerd: true
@@ -9,7 +9,7 @@ env:
   - name: TZ
     value: America/Sao_Paulo
   - name: PORT
-    value: 8080
+    value: "8080"
 
 ingress:
   enable: true
