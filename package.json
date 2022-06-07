@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-nodejs",
-  "version": "4.5.18",
+  "version": "4.6.0",
   "description": "A node.js application for pipeline testing.",
   "main": "./src/main.js",
   "private": true,

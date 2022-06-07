@@ -1,3 +1,53 @@
+# [4.6.0](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.5.18...v4.6.0) (2022-06-07)
+
+
+### Bug Fixes
+
+* empty commit for testing ([7296163](https://github.com/filipeforattini/ff-svc-nodejs/commit/7296163c0230d756840955c18ed247adf28ddb3e))
+* empty commit for testing ([672c0f3](https://github.com/filipeforattini/ff-svc-nodejs/commit/672c0f3dbeae30e375566a264abeec8e0eb1cf7d))
+* empty commit for testing ([acda1df](https://github.com/filipeforattini/ff-svc-nodejs/commit/acda1df8b8a28dbd82fcb539ed8d493e23a187fe))
+* empty commit for testing ([b802a59](https://github.com/filipeforattini/ff-svc-nodejs/commit/b802a5989c5fe72ecccb0f8c2e0f6134c415514a))
+* empty commit for testing ([5a9a7ff](https://github.com/filipeforattini/ff-svc-nodejs/commit/5a9a7ff27f01ceee5e533239e10921d3dfe36cfc))
+* empty commit for testing ([d7edfed](https://github.com/filipeforattini/ff-svc-nodejs/commit/d7edfed75846738794270ecd1e7a4bddfeb4a93d))
+* empty commit for testing ([7e9eb43](https://github.com/filipeforattini/ff-svc-nodejs/commit/7e9eb430c67d121342903dac7acb874553b2d6f8))
+* empty commit for testing ([b08879a](https://github.com/filipeforattini/ff-svc-nodejs/commit/b08879a6ca64b8bd08a055b9f786e2b7c22e81d9))
+* empty commit for testing ([f66054f](https://github.com/filipeforattini/ff-svc-nodejs/commit/f66054fba40a211d46648511b44f2a8c6c60db3c))
+* empty commit for testing ([501d772](https://github.com/filipeforattini/ff-svc-nodejs/commit/501d772368e10b142fc7eb41dadf8485037f4efc))
+* empty commit for testing ([153c387](https://github.com/filipeforattini/ff-svc-nodejs/commit/153c3870503722ea2a5ad195d488d4c498a2748d))
+* empty commit for testing ([48b7548](https://github.com/filipeforattini/ff-svc-nodejs/commit/48b754811722841537dc33a748ba8d0e86bef071))
+* empty commit for testing ([739735b](https://github.com/filipeforattini/ff-svc-nodejs/commit/739735b5ff718b1d067f138e2c95a89447cf1cb7))
+* empty commit for testing ([b357c33](https://github.com/filipeforattini/ff-svc-nodejs/commit/b357c33546a38be5de08069c703a876f93d004da))
+* empty commit for testing ([fab2ea5](https://github.com/filipeforattini/ff-svc-nodejs/commit/fab2ea543a92f876660c82ee070e2259ec411fc1))
+* empty commit for testing ([ba8eeb1](https://github.com/filipeforattini/ff-svc-nodejs/commit/ba8eeb1686b07a3a161de277ae11030c4acdb8bc))
+* empty commit for testing ([5213e69](https://github.com/filipeforattini/ff-svc-nodejs/commit/5213e693756f2842195ba2aa76f1876d547f7d5f))
+* empty commit for testing ([a0cb4af](https://github.com/filipeforattini/ff-svc-nodejs/commit/a0cb4af4f6b0515279db5099b34dcc1d8bf6df50))
+* empty commit for testing ([88937ef](https://github.com/filipeforattini/ff-svc-nodejs/commit/88937ef6137de2570a34b05e26c7fa54d823c755))
+* empty commit for testing ([052341a](https://github.com/filipeforattini/ff-svc-nodejs/commit/052341a403badc7e781366371e1fe15f78dc3fc0))
+* empty commit for testing ([c598865](https://github.com/filipeforattini/ff-svc-nodejs/commit/c598865d63f0986ef67ed4777319ae5b30432e69))
+* empty commit for testing ([06dbe60](https://github.com/filipeforattini/ff-svc-nodejs/commit/06dbe602745ce708f37fe9071fe831ae05b79638))
+* empty commit for testing ([0b2d961](https://github.com/filipeforattini/ff-svc-nodejs/commit/0b2d9615f57b3875d2a9d3a550233d7d362bc444))
+* empty commit for testing ([6a657db](https://github.com/filipeforattini/ff-svc-nodejs/commit/6a657dbdc87b961834eae0bebbc0fe2f0f176d97))
+* empty commit for testing ([8b4e203](https://github.com/filipeforattini/ff-svc-nodejs/commit/8b4e2030ee9271f6e6d7153d4dbeb3c2ad470c27))
+* empty commit for testing ([fb79040](https://github.com/filipeforattini/ff-svc-nodejs/commit/fb79040314ea736b0ee805f1b95f9d1cf1c1d3a8))
+* empty commit for testing ([dda5aa7](https://github.com/filipeforattini/ff-svc-nodejs/commit/dda5aa7ec7d33815dc8913991a305d0365af98e6))
+* empty commit for testing ([8f0575b](https://github.com/filipeforattini/ff-svc-nodejs/commit/8f0575b10dd41f50a79792009255cf6155a703a8))
+* empty commit for testing ([9e84c64](https://github.com/filipeforattini/ff-svc-nodejs/commit/9e84c6455f0ad38bf2394966464d185231501a30))
+* empty commit for testing ([21cbfdd](https://github.com/filipeforattini/ff-svc-nodejs/commit/21cbfdd7cd1987e50e4d5fb6a1864acf36a04e23))
+* empty commit for testing ([805dc9e](https://github.com/filipeforattini/ff-svc-nodejs/commit/805dc9e0f4a920d0d3a2390f49fc838cf8ca8e41))
+* empty commit for testing ([6537e89](https://github.com/filipeforattini/ff-svc-nodejs/commit/6537e8927a7126539c652541b65b23c13728560f))
+* empty commit for testing ([6745a8e](https://github.com/filipeforattini/ff-svc-nodejs/commit/6745a8ee9ad2c84ea9c83747db7b9171baf6cfc9))
+* empty commit for testing ([f06b7e7](https://github.com/filipeforattini/ff-svc-nodejs/commit/f06b7e745716ec2a979a3e6f405867a54ed71246))
+* empty commit for testing ([aedc75a](https://github.com/filipeforattini/ff-svc-nodejs/commit/aedc75aaf134fcf568081f443d501bdab28f87ae))
+* typo on resources ([5b00a1f](https://github.com/filipeforattini/ff-svc-nodejs/commit/5b00a1fe1aadbfac953bb2d7dbd7f45be1f0c695))
+
+
+### Features
+
+* added ingress ([9e05154](https://github.com/filipeforattini/ff-svc-nodejs/commit/9e051543451ef3c9d325df8f890a8dc2ed3b5b00))
+* added mysql support ([a42ff08](https://github.com/filipeforattini/ff-svc-nodejs/commit/a42ff08433fee2502675ece6e006ff6f5d964d82))
+* added postgres support ([0ff8997](https://github.com/filipeforattini/ff-svc-nodejs/commit/0ff89970222ab31565be6c07d647fa7061f6ff73))
+* using new delivery and deploy structure ([4aba8e3](https://github.com/filipeforattini/ff-svc-nodejs/commit/4aba8e30460a1fb8130095631f7d37ed2bca258a))
+
 ## [4.5.18](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.5.17...v4.5.18) (2022-05-16)
 
 
