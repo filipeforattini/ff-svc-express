@@ -6,10 +6,10 @@ features:
   enableLinkerd: true
 
 env:
-  - name: TZ
-    value: America/Sao_Paulo
   - name: PORT
     value: "8080"
+  - name: TZ
+    value: America/Sao_Paulo
 
 ingress:
   enable: true
