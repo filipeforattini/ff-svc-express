@@ -1,3 +1,10 @@
+## [4.6.15](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.14...v4.6.15) (2022-06-08)
+
+
+### Bug Fixes
+
+* empty commit for testing ([e85c6e2](https://github.com/filipeforattini/ff-svc-nodejs/commit/e85c6e299a701fb264af2a0431926f214bd9df11))
+
 ## [4.6.14](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.13...v4.6.14) (2022-06-08)
 
 
