@@ -1,6 +1,6 @@
 #@data/values
 ---
-port: "8080"
+port: 8080
 
 features:
   enableLinkerd: true
