@@ -2,14 +2,14 @@
 ---
 mysql:
   enabled: true
-  helm:
+  values:
     primary:
       persistence:
         size: 1Gi	
 
 postgres:
   enabled: true  
-  helm:
+  values:
     primary:
       persistence:
         size: 1Gi
@@ -18,6 +18,15 @@ postgres:
 
 rabbitmq:
   enabled: true  
-  helm:
+  values:
     persistence:
       size: 1Gi
+
+elasticsearch:
+  enabled: true  
+  values:
+    persistence:
+      size: 1Gi
+
+redis:
+  enabled: true  
