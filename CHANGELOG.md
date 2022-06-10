@@ -1,3 +1,10 @@
+## [4.6.18](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.17...v4.6.18) (2022-06-10)
+
+
+### Bug Fixes
+
+* dependencies keys ([446330d](https://github.com/filipeforattini/ff-svc-nodejs/commit/446330d716f7e8bcab339ff1945f2dc49264fa5d))
+
 ## [4.6.17](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.16...v4.6.17) (2022-06-10)
 
 
