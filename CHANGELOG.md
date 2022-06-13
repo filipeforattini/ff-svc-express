@@ -1,3 +1,10 @@
+## [4.6.22](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.21...v4.6.22) (2022-06-13)
+
+
+### Bug Fixes
+
+* using just mysql as dependency ([0ffd96f](https://github.com/filipeforattini/ff-svc-nodejs/commit/0ffd96f98f1def810e7863fad881b3b3fb3937f4))
+
 ## [4.6.21](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.20...v4.6.21) (2022-06-10)
 
 
