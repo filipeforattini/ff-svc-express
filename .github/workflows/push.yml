@@ -9,6 +9,7 @@ jobs:
     with:
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
+      staticAnalysis: true
       nodeMatrix: '[14, 17]'
       containerRegistry: ghcr.io
       environmentsAsNamespaces: true
