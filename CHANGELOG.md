@@ -1,3 +1,10 @@
+## [4.6.23](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.22...v4.6.23) (2022-06-13)
+
+
+### Bug Fixes
+
+* removed dependencies ([c787299](https://github.com/filipeforattini/ff-svc-nodejs/commit/c7872994e25bd16eb99d8d555905aeec36ca9f26))
+
 ## [4.6.22](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.21...v4.6.22) (2022-06-13)
 
 
