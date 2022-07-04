@@ -2,9 +2,6 @@
 ---
 port: 8080
 
-features:
-  enableLinkerd: true
-
 env:
   - name: PORT
     value: "8080"
@@ -14,7 +11,10 @@ env:
 ingress:
   enable: true
   type: nginx
-  domain:
+
+  tls:
     enable: true
-    name: forattini.app
+    domain: forattini.app
     email: filipeforattini1@gmail.com
+    letsencrypt:
+      enable: true
