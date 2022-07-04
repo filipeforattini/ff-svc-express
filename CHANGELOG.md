@@ -1,3 +1,10 @@
+# [4.7.0](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.25...v4.7.0) (2022-07-04)
+
+
+### Features
+
+* added traefik ingress support ([7b7a3c3](https://github.com/filipeforattini/ff-svc-nodejs/commit/7b7a3c306a074ec025e9b0b99bc86be6dfbf049c))
+
 ## [4.6.25](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.24...v4.6.25) (2022-06-13)
 
 
