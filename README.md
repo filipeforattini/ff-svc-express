@@ -5,6 +5,13 @@
 
 This repository is an example of a service built with pileline [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions) and deployed on Kubernetes.
 
+## Environments
+
+| dev | stg | prd |
+|:---:|:---:|:---:|
+| [app](https://ff-svc-nodejs.dev.forattini.app/) | - | - |
+
+
 ## Monitor
 
 #### Branches
