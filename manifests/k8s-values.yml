@@ -10,7 +10,7 @@ env:
 
 ingress:
   enable: true
-  type: nginx
+  type: traefik
 
   tls:
     enable: true
