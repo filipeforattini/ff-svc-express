@@ -1,3 +1,10 @@
+## [4.7.1](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.7.0...v4.7.1) (2022-07-04)
+
+
+### Bug Fixes
+
+* using traefik ingress controller ([517daef](https://github.com/filipeforattini/ff-svc-nodejs/commit/517daefbf3f5accb4906015dba2dfc494db37d26))
+
 # [4.7.0](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.6.25...v4.7.0) (2022-07-04)
 
 
