@@ -1,3 +1,11 @@
+## [4.7.4](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.7.3...v4.7.4) (2022-07-06)
+
+
+### Bug Fixes
+
+* empty commit for testing ([7e3261a](https://github.com/filipeforattini/ff-svc-nodejs/commit/7e3261af7a1d94f3d0ef9acf2a77f6c7e20b05ad))
+* using correct port ([1deeddd](https://github.com/filipeforattini/ff-svc-nodejs/commit/1deeddd27e0f2f15781262c89115b9c8393bb8ad))
+
 ## [4.7.3](https://github.com/filipeforattini/ff-svc-nodejs/compare/v4.7.2...v4.7.3) (2022-07-06)
 
 
