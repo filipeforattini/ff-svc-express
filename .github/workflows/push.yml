@@ -4,18 +4,18 @@ on: ['push']
 jobs:
 
   Delivery:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/service-push.yml@main
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/svc-push.yml@main
     secrets: inherit
     with:
       mainBranch: main
       platforms: linux/amd64,linux/arm/v8,linux/arm64
-      staticAnalysis: true
+      staticAnalysis: false
       nodeMatrix: '[14, 17]'
       containerRegistry: ghcr.io
       environmentsAsNamespaces: true
 
   Deploy:
-    uses: filipeforattini/ff-iac-github-actions/.github/workflows/deploy.yml@main
+    uses: filipeforattini/ff-iac-github-actions/.github/workflows/svc-deploy.yml@main
     needs: Delivery
     secrets: inherit
     with:
