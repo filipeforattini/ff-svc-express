@@ -9,7 +9,7 @@ This repository is an example of a service built with pileline [filipeforattini/
 
 | dev | stg | prd |
 |:---:|:---:|:---:|
-| [app](https://ff-svc-nodejs.dev.forattini.app/) | - | - |
+| [svc](https://ff-svc-nodejs.dev.forattini.app/) | - | - |
 
 
 ## Monitor
