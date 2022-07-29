@@ -1,12 +1,12 @@
 {
-  "name": "ff-svc-nodejs",
+  "name": "ff-svc-express",
   "version": "4.7.7",
   "description": "A node.js application for pipeline testing.",
   "main": "./src/main.js",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/filipeforattini/ff-svc-nodejs.git"
+    "url": "https://github.com/filipeforattini/ff-svc-express.git"
   },
   "author": "filipeforattini",
   "license": "ISC",

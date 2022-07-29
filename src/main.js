@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
     color,
     version,
     count: count++,
-    link: "https://github.com/filipeforattini/ff-svc-nodejs",
+    link: "https://github.com/filipeforattini/ff-svc-express",
   });
 });
 
