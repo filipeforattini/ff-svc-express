@@ -7,7 +7,7 @@ This repository is an example of a `svc` to be built with [filipeforattini/ff-ia
 | Language | Framework | Docker |
 |:---:|:---:|:---:|
 | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="React" width="40" height="40"/> |
-| Node 17 | 4 | 17 |
+| Node 17 | 4 | 17-alpine |
 
 
 ## Environments
