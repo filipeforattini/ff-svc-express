@@ -1,34 +1,20 @@
 # ff-svc-express
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+ ![](https://github.com/filipeforattini/ff-svc-express/actions/workflows/pipeline.yml/badge.svg) ![](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)
 
-## Description
+This repository is an example of a `svc` to be built with [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions) pipeline and deployed on Kubernetes.
 
-This repository is an example of a service built with pileline [filipeforattini/ff-iac-github-actions](https://github.com/filipeforattini/ff-iac-github-actions) and deployed on Kubernetes.
+
+| Language | Framework | Docker |
+|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" title="React" width="40" height="40"/> | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="React" width="40" height="40"/> |
+| Node 17 | 4 | 17 |
+
 
 ## Environments
 
-| dev | stg | prd |
+| name | deploy | link |
 |:---:|:---:|:---:|
-| [svc](https://ff-svc-express.dev.forattini.app/) | - | - |
-
-
-## Monitor
-
-#### Branches
-
-| main | develop |
-| :---: | :---: |
-| ![Branch Main](https://github.com/filipeforattini/ff-svc-express/actions/workflows/push.yml/badge.svg?branch=main) | ![Branch Develop](https://github.com/filipeforattini/ff-svc-express/actions/workflows/push.yml/badge.svg?branch=main) |
-
-#### Workflows
-
-| push | pull-request |
-| :---: | :---: |
-| ![Event Push](https://github.com/filipeforattini/ff-svc-express/actions/workflows/push.yml/badge.svg) | ![Event Push](https://github.com/filipeforattini/ff-svc-express/actions/workflows/pull-request.yml/badge.svg) |
-
-#### Events
-
-| push | pull_request |
-| :---: | :---: |
-| ![Event Push](https://github.com/filipeforattini/ff-svc-express/actions/workflows/push.yml/badge.svg?event=push) | ![Event Push](https://github.com/filipeforattini/ff-svc-express/actions/workflows/pull-request.yml/badge.svg?event=pull_request) |
+| dev | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/dev?label=deploy) | [live](https://ff-svc-express.dev.forattini.app/) |
+| stg | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/stg?label=deploy) | [live](https://ff-svc-express.stg.forattini.app/) |
+| prd | ![](https://img.shields.io/github/deployments/filipeforattini/ff-svc-express/prd?label=deploy) | [live](https://ff-svc-express.prd.forattini.app/) |
 
