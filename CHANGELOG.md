@@ -1,3 +1,22 @@
+## [4.7.89](https://github.com/filipeforattini/ff-svc-express/compare/v4.7.88...v4.7.89) (2022-08-24)
+
+
+### Bug Fixes
+
+* empty commit for testing ([b5f12bc](https://github.com/filipeforattini/ff-svc-express/commit/b5f12bccb5ae554addfbad7eedc7e4f338e96573))
+* empty commit for testing ([005e008](https://github.com/filipeforattini/ff-svc-express/commit/005e008ff37fcd3dbfa055a75dbaf7a4066b98f0))
+* empty commit for testing ([8c105d8](https://github.com/filipeforattini/ff-svc-express/commit/8c105d889e4d91fd71db6a8ce395fa2441b03904))
+* empty commit for testing ([e83b8ee](https://github.com/filipeforattini/ff-svc-express/commit/e83b8eece4b584126cb055071faa7400146a6bbf))
+* empty commit for testing ([622bc80](https://github.com/filipeforattini/ff-svc-express/commit/622bc8043f9b180d489f7c95d9bbf2f6249ba747))
+* empty commit for testing ([44d0017](https://github.com/filipeforattini/ff-svc-express/commit/44d00171a3830b30d34d2e6af014a5571e4fcae9))
+* empty commit for testing ([2c041c3](https://github.com/filipeforattini/ff-svc-express/commit/2c041c3fd6c627b9702d47ae5243540ddd8c7f17))
+* empty commit for testing ([5d8ae3b](https://github.com/filipeforattini/ff-svc-express/commit/5d8ae3bb26657bf5646239105689a4eb42fe6fb1))
+* empty commit for testing ([07d8501](https://github.com/filipeforattini/ff-svc-express/commit/07d85011aaf8f4b81779106cda24d54f9499d376))
+* empty commit for testing ([1fd5b8d](https://github.com/filipeforattini/ff-svc-express/commit/1fd5b8dc53f02db778c540ade4ed0e8d03bce49b))
+* empty commit for testing ([a8061f4](https://github.com/filipeforattini/ff-svc-express/commit/a8061f488dd473814fcf957ad95930acf172ad8d))
+* empty commit for testing ([ad736c2](https://github.com/filipeforattini/ff-svc-express/commit/ad736c2cb42ceceefe3e5ec1dfd520872eec81dd))
+* empty commit for testing ([37e7117](https://github.com/filipeforattini/ff-svc-express/commit/37e71172e9ddf289c8eb7019216af98bcbf6207c))
+
 ## [4.7.88](https://github.com/filipeforattini/ff-svc-express/compare/v4.7.87...v4.7.88) (2022-08-17)
 
 
