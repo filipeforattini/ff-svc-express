@@ -1,3 +1,10 @@
+## [4.7.111](https://github.com/filipeforattini/ff-svc-express/compare/v4.7.110...v4.7.111) (2022-08-30)
+
+
+### Bug Fixes
+
+* empty commit for testing ([334fb96](https://github.com/filipeforattini/ff-svc-express/commit/334fb9663fc9627ea1fe0039db11aeb099aaf0b7))
+
 ## [4.7.110](https://github.com/filipeforattini/ff-svc-express/compare/v4.7.109...v4.7.110) (2022-08-30)
 
 
