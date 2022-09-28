@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-express",
-  "version": "4.7.121",
+  "version": "4.7.122",
   "description": "A node.js application for pipeline testing.",
   "main": "./src/main.js",
   "private": true,
