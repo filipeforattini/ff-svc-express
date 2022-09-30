@@ -1,7 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "ff-svc-express",
   "version": "4.7.122",
   "description": "A node.js application for pipeline testing.",
+=======
+  "name": "ff-svc-pipetest",
+  "version": "4.2.0",
+  "description": "Pipe teste for a Node.js service.",
+>>>>>>> cde9a3f (fix: merge commit)
   "main": "./src/main.js",
   "private": true,
   "repository": {
