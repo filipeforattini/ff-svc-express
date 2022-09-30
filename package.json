@@ -1,7 +1,12 @@
 {
   "name": "ff-svc-pipetest",
+<<<<<<< HEAD
   "version": "4.1.1",
   "description": "A Node.js application test for pipelines.",
+=======
+  "version": "4.2.0",
+  "description": "Pipe teste for a Node.js service.",
+>>>>>>> e9e149d (chore(release): 4.2.0 [skip ci])
   "main": "./src/main.js",
   "private": true,
   "devDependencies": {
