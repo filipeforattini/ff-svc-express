@@ -1,6 +1,6 @@
 {
   "name": "ff-svc-pipetest",
-  "version": "4.2.0",
+  "version": "3.0.0",
   "description": "Pipe teste for a Node.js service.",
   "main": "./src/main.js",
   "private": true,
