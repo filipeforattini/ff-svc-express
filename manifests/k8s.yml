@@ -10,7 +10,7 @@ env:
 
 ingress:
   enable: true
-  type: traefik
+  className: traefik
   domain: forattini.app
   
   letsencrypt:
