@@ -21,7 +21,7 @@
     "helmet": "^5.1.0",
     "morgan": "^1.10.0",
     "pug": "^3.0.2",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.1"
   },
   "scripts": {
     "release": "semantic-release --no-ci",
